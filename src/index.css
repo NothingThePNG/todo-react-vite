@@ -1,0 +1,94 @@
+* {
+  font-family: 'Roboto Mono', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #211951;
+  color: #15F5BA;
+}
+
+h1,
+h2,
+h3,
+input,
+button,
+select,
+option {
+  font-family: 'Press Start 2P', system-ui !important;
+  font-size: 1.6vw !important;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+  gap: 14px;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+header input {
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #5548a8;
+  border: none;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+select {
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #5548a8;
+  border: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 30px;
+  margin: 0 10%;
+  gap: 30px;
+}
+
+li {
+  margin: 10px;
+  padding: 10px;
+  font-size: 2vw;
+  background-color: #5548a8;
+  border-radius: 4px;
+}
+
+i {
+  background: transparent;
+  padding-left: 10px;
+}
+
+.no-background {
+  background-color: transparent;
+  width: 90%;
+  display: inline-block;
+}
+
+.left {
+  width: 10%;
+  text-align: end;
+  display: inline-block;
+  background: transparent;
+  padding-right: 15px;
+}
